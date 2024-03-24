@@ -26,8 +26,5 @@ jobs:
         make format
     # - name: Build Container
     #   run: |
-<<<<<<< HEAD
-    #     make build
-=======
-    #     make build
->>>>>>> 7c8b69a (corrections)
+
+
