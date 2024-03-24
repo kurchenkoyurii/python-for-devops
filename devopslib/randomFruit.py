@@ -5,5 +5,3 @@ def fruit():
     return choices(fruits)[0]
 
 
-val=1
-val=val
