@@ -14,13 +14,17 @@ test:
 # cover devopslib
 # check all test_*.py files
 
+format:
+	#format code
+	black *.py devoplsib/randomFruit.py
+	# devoplsib/*.py
+
+all: install lint test format
 
 # post-install:
 # 	python -m textblob.download_corpora
 
-# format:
-# 	#format code
-# 	black *.py mylib/*.py
+
 # lint:
 # 	#flake8 or #pylint
 # 	pylint --disable=R,C *.py mylib/*.py
