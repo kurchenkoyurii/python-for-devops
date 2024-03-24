@@ -16,7 +16,7 @@ test:
 
 format:
 	#format code
-	black *.py devoplsib/randomFruit.py
+	black *.py devopslib/*.py
 	# devoplsib/*.py
 
 all: install lint test format
